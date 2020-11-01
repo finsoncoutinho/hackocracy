@@ -70,3 +70,49 @@ text-align:left;
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
+
+img{
+  	margin-top: 10px;
+  }
+
+.def:hover {
+  box-shadow: 0 12px 16px 0 rgba(1,1,1,1.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.def{
+	height: 128px;
+	width: 128px;
+}
+
+.column {
+  float: left;
+  width: 16.6%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+.row{
+	margin-top: 60px;
+}
+
+
+
+#gray{
+	background-color: lightgrey;
+	padding: 5px;
+}
+
+.button{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h1{
+	background-color: grey;
+	padding: 10px;
+}
